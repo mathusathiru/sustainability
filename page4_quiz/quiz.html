@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+
+<body>
+    
+    <nav>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../page2_about/about.html">About</a></li>
+        <li><a href="../page3_activities/activities.html">Activities</a></li>
+        <li><a href="../page4_quiz/quiz.html">Quiz</a></li>
+    </nav>
+
+    <div class="headline">
+        <h1>Experience <span class="effect">Eco</span>Education</h1>
+        <img src="../images/headers/image4_desert.jpeg" width="1500" height="500">
+    </div>
+
+    <p class="introline">Time to tackle our sustainability quiz - based on what you've read on our website!</p>
+
+    <div class="quiz">
+
+        <p>How many goals are in the Sustainable Development Goals?</p>
+
+        <input type="radio" name="question1" > 16<br>
+
+        <input type="radio" name="question1" id="correct1">
+        <label for="correctanswer1">17</label><br>
+
+        <input type="radio" name="question1" > 18<br>
+        <input type="radio" name="question1" > 15<br>
+
+        <p>How many categories are in the "Ps" agenda?</p>
+        <input type="radio" name="question2" id="correct2">
+        <label for="correctanswer2">5</label><br>
+
+        <input type="radio" name="question2" > 6<br>
+        <input type="radio" name="question2" > 4<br>
+        <input type="radio" name="question2" > 3<br>
+
+        <p>Which of these is not a good energy source?</p>
+
+        <input type="radio" name="question3" > solar<br>
+        <input type="radio" name="question3" > wind<br>
+        <input type="radio" name="question3" > thermal<br>
+  
+        <input type="radio" name="question3" id="correct3">
+        <label for="correctanswer3">coal</label><br>
+
+        <p>How much power was generated using renewable energy sources in 2017?</p>
+        <input type="radio" name="question4" id="correct4">
+        <label for="correctanswer4">17.5%</label><br>
+
+        <input type="radio" name="question4" > 17%<br>
+        <input type="radio" name="question4" > 18.5%<br>
+        <input type="radio" name="question4" > 16%<br>
+
+        <p>How can we make a city sustainable?</p>
+
+        <input type="radio" name="question5" > slums<br>
+        <input type="radio" name="question5" > coal power plants<br>
+
+        <input type="radio" name="question5" id="correct5">
+        <label for="correctanswer5">green spaces</label><br>
+
+        <input type="radio" name="question5" > no management<br>
+
+        <p>What percentage of the global GDP is generated from cities?</p>
+
+        <input type="radio" name="question6" > 90%<br>
+
+        <input type="radio" name="question6" id="correct6">
+        <label for="correctanswer6">80%</label><br>
+
+        <input type="radio" name="question6" > 75%<br>
+        <input type="radio" name="question6" > 60%<br>
+
+        <p>Which of these is not a result of illegally trading species?</p>
+        <input type="radio" name="question7" id="correct7">
+        <label for="correctanswer7">helps poorer countries</label><br>
+
+        <input type="radio" name="question7" > loss of biodiversity<br>
+        <input type="radio" name="question7" > fuel conflict<br>
+        <input type="radio" name="question7" > corruption<br>
+
+        <p>How many people depend on agriculture to live?</p>
+
+        <input type="radio" name="question8" > 6.5 billion<br>
+        <input type="radio" name="question8" > 4.4 billion<br>
+        <input type="radio" name="question8" > 1.2 billion<br>
+
+        <input type="radio" name="question8" id="correct8">
+        <label for="correctanswer8">2.6 billion</label><br>
+
+        <p>How can we protect our oceans?</p>
+
+        <input type="radio" name="question9" > oil spills<br>
+
+        <input type="radio" name="question9" id="correct9">
+        <label for="correctanswer9">conservation</label><br>
+
+        <input type="radio" name="question9" > littering<br>
+        <input type="radio" name="question9" > over-fishing<br>
+
+        <p>How much of Earth is covered by oceans?</p>
+
+        <input type="radio" name="question10" > 62%<br>
+
+        <input type="radio" name="question10" id="correct10">
+        <label for="correctanswer10">75%</label><br>
+
+        <input type="radio" name="question10" > 55%<br>
+        <input type="radio" name="question10" > 81%<br>
+
+        <div class="spacer"></div>
+        
+        <input type="submit" class="submit" name="submit" value="Submit" onclick="
+            result()">
+
+        <p id="result"></p>
+        <p id="praise"></p>
+
+        <span id="tryagain" onclick="reload()"></span>
+
+    </div>
+
+</body>
+
+<footer>
+
+    <div class="footer_row">
+        <div class="footer_column">
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <div class="spacer"></div>
+            <a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a>
+        </div>
+        <div class="footer_column">
+            <img src="../images/logo.png" width="100">
+            <p>© 2022</p>
+        </div>
+    </div>
+
+</footer>
+
+</html>

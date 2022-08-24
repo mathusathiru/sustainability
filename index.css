@@ -1,0 +1,161 @@
+/* NAV BAR */
+
+nav {
+  background-color: darkgreen;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav a {
+  font-family: Helvetica;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 10.5px;
+}
+
+li:hover {
+  display: inline;
+  background-color: orangered;
+  transition-duration: 0.25s;
+}
+
+li {
+  display: inline;
+}
+
+/* BODY */ 
+
+body {
+  margin: 0px;
+}
+
+/* HEADLINE CONTENT */
+
+.headline {
+  text-align: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 40px;
+}
+
+span.effect {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: darkgreen;
+}
+
+.link {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+/* BUTTON */
+
+button {
+  font-family: Helvetica;
+  font-size: 20px;
+  background-color: darkgreen;
+  color: white;
+  border: 0cm;
+  padding: 10px;
+}
+
+button:hover{
+  background-color: orangered;
+  transition-duration: 0.25s;
+}
+
+/* IMAGE ROWS */
+
+.row_one {
+    display: flex;
+    margin-left: 10%;
+  }
+  
+  .column_one {
+    flex: 20%;
+    padding: 5px;
+  }
+
+    .column_one p {
+        width: 500px;
+        font-family: Helvetica;;
+    }
+
+  .rowspacer {
+    height: 85px;
+  }
+
+.row_two {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 3.5%;
+  }
+  
+  .column_two {
+    flex: 20%;
+    padding: 5px;
+  }
+
+    .column_two p {
+        width: 195px;
+        font-family: Helvetica;
+        color: darkgreen;
+        font-weight: bold;
+    }
+
+    .column_two p:hover{
+      color: orangered;
+      transition-duration: 0.25s;
+  }
+
+    .column_two a {
+      text-decoration: none;
+    }
+
+/* FOOTER */
+
+footer {
+  margin-top: 7.5%;
+  background-color: black;
+  height: 155px;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.footer_row {
+  margin-left: 68%;
+  margin-right: 5%;
+  display: flex;
+}
+
+  .footer_column {
+    flex: 20%;
+    margin-top: 15px;
+  }
+
+  .footer_column a {
+    color: white;
+    font-family: Helvetica;
+    text-decoration: none;
+  }
+
+  .footer_column a:hover {
+    color: orangered;
+  }
+
+  .footer_column p {
+    color: white;
+  }
